@@ -1,0 +1,72 @@
+[
+    {
+        "timestamp": "2025-05-08T05:22:38Z",
+        "ip": "192.168.2.21",
+        "user": "admin",
+        "action": "login_attempt",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-09T08:15:53Z",
+        "ip": "192.168.2.254",
+        "user": "admin",
+        "action": "logout",
+        "status": "failed"
+    },
+    {
+        "timestamp": "2025-05-10T22:28:22Z",
+        "ip": "192.168.2.33",
+        "user": "sarah",
+        "action": "config_change",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-14T04:48:28Z",
+        "ip": "192.168.2.139",
+        "user": "admin",
+        "action": "logout",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-08T06:00:44Z",
+        "ip": "192.168.2.142",
+        "user": "seb",
+        "action": "file_access",
+        "status": "failed"
+    },
+    {
+        "timestamp": "2025-05-07T21:58:22Z",
+        "ip": "192.168.2.37",
+        "user": "seb",
+        "action": "config_change",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-10T14:07:11Z",
+        "ip": "192.168.2.99",
+        "user": "seb",
+        "action": "file_access",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-13T00:31:22Z",
+        "ip": "192.168.2.186",
+        "user": "theo",
+        "action": "password_change",
+        "status": "success"
+    },
+    {
+        "timestamp": "2025-05-10T10:16:30Z",
+        "ip": "192.168.2.22",
+        "user": "sarah",
+        "action": "config_change",
+        "status": "failed"
+    },
+    {
+        "timestamp": "2025-05-12T17:31:23Z",
+        "ip": "192.168.2.101",
+        "user": "seb",
+        "action": "config_change",
+        "status": "success"
+    }
+]
