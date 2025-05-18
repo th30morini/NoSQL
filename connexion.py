@@ -1,12 +1,15 @@
 from pymongo import MongoClient
+from statics import Project
 
 def get_connexion():
     try:
-        client = MongoClient("mongodb://admin:admin@192.168.5.190:27017/?authSource=admin")
+        client = MongoClient(f"mongodb://{Project['admin_username']}:{Project['admin_mdp']}@{Project['ip_db']}:{Project['port']}/?authSource=admin")
         db = client["TPNoSQL"]
         return db
     except Exception as e:
         print(f"Erreur de connexion à MongoDB : {e}")
         return None
-db = get_connexion()
 
+# Teste la connexion à la bdd
+#print(f"mongodb://{Project['admin_username']}:{Project['admin_mdp']}@{Project['ip_db']}:{Project['port']}/?authSource=admin")
+get_connexion()

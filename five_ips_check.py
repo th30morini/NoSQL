@@ -36,11 +36,10 @@ def detect_failed_attempts():
 
         if len(window) > 5:
             anomalies.add(ip)
+    print("IPs suspectes avec +5 échecs en 10 minutes :")
+    for ip in anomalies:
+        print("-", ip)
 
-    return anomalies
 
-# Utilisation
-suspicious_ips = detect_failed_attempts()
-print("IPs suspectes avec +5 échecs en 10 minutes :")
-for ip in suspicious_ips:
-    print("-", ip)
+detect_failed_attempts()
+

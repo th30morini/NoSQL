@@ -22,4 +22,5 @@ def detect_unknown_ips():
         except ValueError:
             print(f"Format IP invalide ignoré : {ip}")
 
-detect_unknown_ips()
+
+#detect_unknown_ips()
