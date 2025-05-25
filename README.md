@@ -47,4 +47,4 @@ show users
 db.logs.find().pretty()
 ```
 
-Ce projet est open source, sous licence MIT.
+
