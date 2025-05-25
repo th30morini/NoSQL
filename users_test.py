@@ -40,3 +40,6 @@ def test_canwrite():
     except OperationFailure as e:
         print("Échec d'insertion (ce qui ne devrait pas arriver) :")
         print(e)
+
+test_canwrite()
+test_onlyread()

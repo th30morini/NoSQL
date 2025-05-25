@@ -4,6 +4,10 @@ from logs_creators import Generate_logs
 from pymongo import MongoClient
 
 def init_db():
-    create_users()
+
     Generate_logs()
     send_logs()
+    #create_users()
+    
+
+init_db()
